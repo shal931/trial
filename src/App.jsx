@@ -1,13 +1,12 @@
-import { useState } from 'react'
- 
+ import { Navbar } from "./Navbar";
 
 function App() {
   
   return (
     <>
-      <h>hello react!</h>
+      <Navbar/>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
