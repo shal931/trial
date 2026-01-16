@@ -1,0 +1,47 @@
+.footer {
+  width: 95%;
+  background: #111827; /* navy/black */
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+.content {
+  margin-bottom: 1rem;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.tagline {
+  font-size: 0.95rem;
+  color: #9ca3af; /* gray */
+}
+
+.links {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.95rem;
+  transition: 0.2s ease;
+}
+
+.links a:hover {
+  color: #60a5fa; /* light blue */
+}
+
+.copy {
+  font-size: 0.8rem;
+  color: #6b7280; /* gray */
+  margin-top: 0.5rem;
+}
